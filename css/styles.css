@@ -1,0 +1,237 @@
+body {
+    font-family: "Roboto", sans-serif; 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+/*-------------header-----------*/
+.header-logo {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.header-logo-accent {
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.header-menu-link {
+    color: var(--navyblue, #2E2F42);
+        /* Body Medium */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.header-menu-link:hover {
+    color: #404BBF;
+}
+.header-menu-link:focus {
+    color: #404BBF;
+}
+.header-contact-list {
+
+}
+.header-contact-item {
+
+}
+.header-contact-link {
+color: var(--slate, #434455);
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+.header-contact-link:hover {
+color: #404BBF;
+}
+.header-contact-link:focus {
+    color: #404BBF;
+}
+
+/*-------------hero-----------*/
+.hero {
+background-color: #2E2F42;
+}
+.hero-title {
+color: var(--white, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+.hero-btn {
+border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+/*-------------goals-----------*/
+.advantages {
+
+}
+.advantages-item {
+
+}
+.advantages-subtitle {
+color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+.advantages-item-text {
+color: var(--slate, #434455);
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+/*-------------do-----------*/
+.do {
+
+}
+.do-title {
+color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.do-list {
+
+}
+.do-img {
+
+}
+/*-------------team-----------*/
+.team {
+
+}
+.team-title {
+color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-list {
+
+}
+.team-item {
+
+}
+.team-name {
+color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+.team-text {
+color: var(--slate, #434455);
+    text-align: center;
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+/*-------------team-----------*/
+.footer {
+ background-color: #2E2F42;   
+}
+.footer-logo {
+color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer-logo-accent {
+color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer-text {
+color: var(--cloud, #F4F4FD);
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
