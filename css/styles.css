@@ -30,9 +30,9 @@ body {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.16;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .header-logo-accent {
@@ -41,9 +41,9 @@ body {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.16;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .header-menu-link {
@@ -52,9 +52,9 @@ body {
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .header-menu-link:hover {
     color: #404BBF;
@@ -74,9 +74,9 @@ color: var(--slate, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .header-contact-link:hover {
 color: #404BBF;
@@ -96,9 +96,9 @@ color: var(--white, #FFF);
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     /* 107.143% */
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
 border-radius: 4px;
@@ -119,9 +119,9 @@ color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .advantages-item-text {
 color: var(--slate, #434455);
@@ -129,9 +129,9 @@ color: var(--slate, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 /*-------------do-----------*/
 .do {
@@ -144,9 +144,9 @@ color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     /* 111.111% */
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .do-list {
@@ -166,9 +166,9 @@ color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     /* 111.111% */
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-list {
@@ -182,9 +182,9 @@ color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .team-text {
 color: var(--slate, #434455);
@@ -193,9 +193,9 @@ color: var(--slate, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 /*-------------team-----------*/
 .footer {
@@ -207,9 +207,9 @@ color: var(--cloud, #F4F4FD);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.16;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-logo-accent {
@@ -218,9 +218,9 @@ color: var(--iris, #4D5AE5);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.16;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-text {
@@ -229,7 +229,7 @@ color: var(--cloud, #F4F4FD);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
