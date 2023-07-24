@@ -233,3 +233,68 @@ color: var(--cloud, #F4F4FD);
     /* 150% */
     letter-spacing: 0.02em;
 }
+/*-------------portfolio-----------*/
+/*-------------filter-----------*/
+.filter {
+background-color: #F4F4FD;
+}
+.filter-btn-active {
+    border-radius: 4px;
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        color: var(--white, #FFF);
+            text-align: center;
+            /* Button Text */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.64px;
+}
+.filter-btn {
+    border-radius: 4px;
+        border: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--cloud, #F4F4FD);
+        color: var(--iris, #4D5AE5);
+            text-align: center;
+            /* Button Text */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.64px;
+}
+/*-------------roweone-----------*/
+.rowone-list {
+
+}
+.rowone-item {
+border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+}
+.rowone-subtitle {
+color: var(--navyblue, #2E2F42);
+
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+.rowone-item-text {
+color: var(--slate, #434455);
+
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
