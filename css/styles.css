@@ -269,6 +269,9 @@ background-color: #F4F4FD;
             letter-spacing: 0.64px;
 }
 /*-------------roweone-----------*/
+.rowone {
+
+}
 .rowone-list {
 
 }
@@ -298,3 +301,4 @@ color: var(--slate, #434455);
     /* 150% */
     letter-spacing: 0.02em;
 }
+/*-------------rowetwo-----------*/
